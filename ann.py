@@ -9,7 +9,7 @@ import matplotlib.pyplot as plt
 from util import getData, softmax, cost2, y2indicator, error_rate, relu
 from sklearn.utils import shuffle
 
-
+#
 class ANN(object):
     def __init__(self, M):
         self.M = M
